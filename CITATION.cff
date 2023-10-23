@@ -11,9 +11,15 @@ authors:
   - given-names: Pranav
     family-names: Kulkarni
     email: pkulkarni@som.umaryland.edu
-    affiliation: >-
-      University of Maryland Medical Intelligent Imaging
-      Center
+  - given-names: Adway
+    family-names: Kanhere
+    email: akanhere@som.umaryland.edu
+  - given-names: Paul H.
+    family-names: Yi
+    email: pyi@som.umaryland.edu
+  - given-names: Vishwa S.
+    family-names: Parekh
+    email: vparekh@som.umaryland.edu
 identifiers:
   - type: doi
     value: 10.48550/arXiv.2301.06683
