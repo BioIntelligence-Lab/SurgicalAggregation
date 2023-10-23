@@ -1,0 +1,21 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Surgical Aggregation
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Pranav
+    family-names: Kulkarni
+    email: pkulkarni@som.umaryland.edu
+    affiliation: >-
+      University of Maryland Medical Intelligent Imaging
+      Center
+identifiers:
+  - type: doi
+    value: 10.48550/arXiv.2301.06683
+repository-code: 'https://github.com/UM2ii/SurgicalAggregation'
+license: GPL-3.0
