@@ -1,0 +1,137 @@
+{
+  "experiments": [
+    {
+      "dataset": "NIH",
+      "num_nodes": 2,
+      "local_labels": [
+        [
+          "Atelectasis",
+          "Cardiomegaly",
+          "Consolidation",
+          "Edema",
+          "Emphysema",
+          "Fibrosis",
+          "Hernia",
+          "Infiltration",
+          "Mass",
+          "Nodule",
+          "Pleural Effusion",
+          "Pleural Thickening",
+          "Pneumonia",
+          "Pneumothorax"
+        ],
+        [
+          "Atelectasis",
+          "Cardiomegaly",
+          "Consolidation",
+          "Edema",
+          "Emphysema",
+          "Fibrosis",
+          "Hernia",
+          "Infiltration",
+          "Mass",
+          "Nodule",
+          "Pleural Effusion",
+          "Pleural Thickening",
+          "Pneumonia",
+          "Pneumothorax"
+        ]
+      ]
+    },
+    {
+      "dataset": "NIH",
+      "num_nodes": 2,
+      "local_labels": [
+        [
+          "Cardiomegaly",
+          "Consolidation",
+          "Edema",
+          "Emphysema",
+          "Fibrosis",
+          "Hernia",
+          "Infiltration",
+          "Mass",
+          "Pleural Effusion",
+          "Pleural Thickening",
+          "Pneumonia"
+        ],
+        [
+          "Atelectasis",
+          "Cardiomegaly",
+          "Emphysema",
+          "Mass",
+          "Nodule",
+          "Pleural Effusion",
+          "Pneumothorax"
+        ]
+      ]
+    },
+    {
+      "dataset": [
+        "NIH",
+        "CheXpert"
+      ],
+      "num_nodes": 2,
+      "local_labels": [
+        [
+          "Atelectasis",
+          "Cardiomegaly",
+          "Consolidation",
+          "Edema",
+          "Pleural Effusion",
+          "Pneumonia",
+          "Pneumothorax"
+        ],
+        [
+          "Atelectasis",
+          "Cardiomegaly",
+          "Consolidation",
+          "Edema",
+          "Pleural Effusion",
+          "Pneumonia",
+          "Pneumothorax"
+        ]
+      ]
+    },
+    {
+      "dataset": [
+        "NIH",
+        "CheXpert"
+      ],
+      "num_nodes": 2,
+      "local_labels": [
+        [
+          "Atelectasis",
+          "Cardiomegaly",
+          "Consolidation",
+          "Edema",
+          "Emphysema",
+          "Fibrosis",
+          "Hernia",
+          "Infiltration",
+          "Mass",
+          "Nodule",
+          "Pleural Effusion",
+          "Pleural Thickening",
+          "Pneumonia",
+          "Pneumothorax"
+        ],
+        [
+          "Atelectasis",
+          "Cardiomegaly",
+          "Consolidation",
+          "Edema",
+          "Enlarged Cardiomediastinum",
+          "Fracture",
+          "Lung Lesion",
+          "Lung Opacity",
+          "Pleural Effusion",
+          "Pleural Other",
+          "Pneumonia",
+          "Pneumothorax",
+          "Support Devices"
+        ]
+      ]
+    }
+  ]
+}

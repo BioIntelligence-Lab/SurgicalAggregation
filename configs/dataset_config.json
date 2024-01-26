@@ -1,0 +1,68 @@
+{
+  "NIH": {
+    "labels": [
+      "Atelectasis",
+      "Cardiomegaly",
+      "Consolidation",
+      "Edema",
+      "Emphysema",
+      "Fibrosis",
+      "Hernia",
+      "Infiltration",
+      "Mass",
+      "Nodule",
+      "Pleural Effusion",
+      "Pleural Thickening",
+      "Pneumonia",
+      "Pneumothorax"
+    ],
+    "path_to_images": "data/NIH-CXR-14-small/images/",
+    "path_to_raw_labels": "data/NIH-CXR-14-small/Data_Entry_2017.csv"
+  },
+  "CheXpert": {
+    "labels": [
+      "Atelectasis",
+      "Cardiomegaly",
+      "Consolidation",
+      "Edema",
+      "Enlarged Cardiomediastinum",
+      "Fracture",
+      "Lung Lesion",
+      "Lung Opacity",
+      "Pleural Effusion",
+      "Pleural Other",
+      "Pneumonia",
+      "Pneumothorax",
+      "Support Devices"
+    ],
+    "path_to_images": "data/CheXpert-small/train/",
+    "path_to_raw_labels": "data/CheXpert-small/train.csv"
+  },
+  "MIMIC": {
+    "labels": [
+      "Atelectasis",
+      "Cardiomegaly",
+      "Consolidation",
+      "Edema",
+      "Emphysema",
+      "Enlarged Cardiomediastinum",
+      "Fibrosis",
+      "Fracture",
+      "Hernia",
+      "Infiltration",
+      "Lung Lesion",
+      "Lung Opacity",
+      "Mass",
+      "Nodule",
+      "Pleural Effusion",
+      "Pleural Other",
+      "Pleural Thickening",
+      "Pneumonia",
+      "Pneumothorax",
+      "Support Devices"
+    ],
+    "path_to_images": "data/mimic-cxr-jpg-small/2.0.0/",
+    "path_to_raw_labels": "data/mimic-cxr-jpg-small/2.0.0/mimic-cxr-2.0.0-chexpert.csv",
+    "path_to_raw_metadata": "data/mimic-cxr-jpg-small/2.0.0/mimic-cxr-2.0.0-metadata.csv"
+  }
+}

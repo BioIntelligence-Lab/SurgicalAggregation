@@ -1,0 +1,39 @@
+[
+  {
+    "dataset": "CheXpert",
+    "labels": [
+      "Atelectasis",
+      "Cardiomegaly",
+      "Consolidation",
+      "Edema",
+      "Enlarged Cardiomediastinum",
+      "Fracture",
+      "Lung Lesion",
+      "Lung Opacity",
+      "Pleural Effusion",
+      "Pleural Other",
+      "Pneumonia",
+      "Pneumothorax",
+      "Support Devices"
+    ]
+  },
+  {
+    "dataset": "NIH",
+    "labels": [
+      "Atelectasis",
+      "Cardiomegaly",
+      "Consolidation",
+      "Edema",
+      "Emphysema",
+      "Fibrosis",
+      "Hernia",
+      "Infiltration",
+      "Mass",
+      "Nodule",
+      "Pleural Effusion",
+      "Pleural Thickening",
+      "Pneumonia",
+      "Pneumothorax"
+    ]
+  }
+]

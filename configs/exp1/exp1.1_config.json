@@ -1,0 +1,335 @@
+{
+  "dataset": "NIH",
+  "experiments": [
+    {
+      "num_nodes": 2,
+      "local_labels": [
+        [
+          "Cardiomegaly",
+          "Consolidation",
+          "Edema",
+          "Emphysema",
+          "Fibrosis",
+          "Hernia",
+          "Infiltration",
+          "Mass",
+          "Pleural Effusion",
+          "Pleural Thickening",
+          "Pneumonia"
+        ],
+        [
+          "Atelectasis",
+          "Cardiomegaly",
+          "Emphysema",
+          "Mass",
+          "Nodule",
+          "Pleural Effusion",
+          "Pneumothorax"
+        ]
+      ]
+    },
+    {
+      "num_nodes": 3,
+      "local_labels": [
+        [
+          "Atelectasis",
+          "Cardiomegaly",
+          "Consolidation",
+          "Edema",
+          "Emphysema",
+          "Fibrosis",
+          "Hernia",
+          "Mass",
+          "Nodule",
+          "Pleural Thickening",
+          "Pneumonia",
+          "Pneumothorax"
+        ],
+        [
+          "Cardiomegaly",
+          "Consolidation",
+          "Emphysema",
+          "Hernia",
+          "Mass",
+          "Pleural Effusion",
+          "Pleural Thickening",
+          "Pneumonia"
+        ],
+        [
+          "Consolidation",
+          "Emphysema",
+          "Hernia",
+          "Infiltration",
+          "Mass",
+          "Pleural Thickening",
+          "Pneumonia",
+          "Pneumothorax"
+        ]
+      ]
+    },
+    {
+      "num_nodes": 4,
+      "local_labels": [
+        [
+          "Atelectasis",
+          "Cardiomegaly",
+          "Consolidation",
+          "Edema",
+          "Emphysema",
+          "Mass",
+          "Pneumonia"
+        ],
+        [
+          "Cardiomegaly",
+          "Edema",
+          "Emphysema",
+          "Fibrosis",
+          "Hernia",
+          "Pleural Effusion",
+          "Pleural Thickening",
+          "Pneumonia",
+          "Pneumothorax"
+        ],
+        [
+          "Cardiomegaly",
+          "Consolidation",
+          "Edema",
+          "Emphysema",
+          "Infiltration",
+          "Mass",
+          "Pneumonia",
+          "Pneumothorax"
+        ],
+        [
+          "Cardiomegaly",
+          "Consolidation",
+          "Edema",
+          "Emphysema",
+          "Hernia",
+          "Mass",
+          "Nodule",
+          "Pleural Thickening",
+          "Pneumonia",
+          "Pneumothorax"
+        ]
+      ]
+    },
+    {
+      "num_nodes": 5,
+      "local_labels": [
+        [
+          "Atelectasis",
+          "Cardiomegaly",
+          "Consolidation",
+          "Emphysema",
+          "Hernia",
+          "Mass",
+          "Nodule",
+          "Pneumonia"
+        ],
+        [
+          "Cardiomegaly",
+          "Consolidation",
+          "Fibrosis",
+          "Mass",
+          "Pleural Effusion",
+          "Pleural Thickening",
+          "Pneumothorax"
+        ],
+        [
+          "Cardiomegaly",
+          "Consolidation",
+          "Edema",
+          "Hernia",
+          "Infiltration",
+          "Mass",
+          "Pneumonia"
+        ],
+        [
+          "Atelectasis",
+          "Consolidation",
+          "Fibrosis",
+          "Mass",
+          "Nodule",
+          "Pleural Thickening",
+          "Pneumothorax"
+        ],
+        [
+          "Consolidation",
+          "Edema",
+          "Mass",
+          "Nodule",
+          "Pneumonia",
+          "Pneumothorax"
+        ]
+      ]
+    },
+    {
+      "num_nodes": 6,
+      "local_labels": [
+        [
+          "Atelectasis",
+          "Cardiomegaly",
+          "Fibrosis",
+          "Hernia",
+          "Pleural Thickening",
+          "Pneumothorax"
+        ],
+        [
+          "Consolidation",
+          "Edema",
+          "Emphysema",
+          "Pleural Effusion",
+          "Pneumothorax"
+        ],
+        [
+          "Cardiomegaly",
+          "Hernia",
+          "Infiltration",
+          "Pneumonia"
+        ],
+        [
+          "Edema",
+          "Emphysema",
+          "Hernia",
+          "Nodule",
+          "Pleural Thickening",
+          "Pneumonia"
+        ],
+        [
+          "Cardiomegaly",
+          "Edema",
+          "Fibrosis",
+          "Hernia",
+          "Mass",
+          "Pleural Thickening",
+          "Pneumothorax"
+        ],
+        [
+          "Consolidation",
+          "Infiltration",
+          "Pneumonia"
+        ]
+      ]
+    },
+    {
+      "num_nodes": 8,
+      "local_labels": [
+        [
+          "Atelectasis",
+          "Cardiomegaly",
+          "Fibrosis",
+          "Hernia",
+          "Pneumothorax"
+        ],
+        [
+          "Consolidation",
+          "Edema",
+          "Emphysema",
+          "Pleural Effusion",
+          "Pneumothorax"
+        ],
+        [
+          "Hernia",
+          "Infiltration",
+          "Pneumonia"
+        ],
+        [
+          "Edema",
+          "Emphysema",
+          "Hernia",
+          "Nodule",
+          "Pleural Thickening",
+          "Pneumonia"
+        ],
+        [
+          "Cardiomegaly",
+          "Edema",
+          "Fibrosis",
+          "Hernia",
+          "Mass"
+        ],
+        [
+          "Cardiomegaly",
+          "Pleural Thickening",
+          "Pneumothorax"
+        ],
+        [
+          "Emphysema",
+          "Fibrosis",
+          "Hernia",
+          "Mass"
+        ],
+        [
+          "Consolidation",
+          "Infiltration",
+          "Pneumonia"
+        ]
+      ]
+    },
+    {
+      "num_nodes": 10,
+      "local_labels": [
+        [
+          "Atelectasis",
+          "Cardiomegaly",
+          "Fibrosis",
+          "Hernia",
+          "Pneumothorax"
+        ],
+        [
+          "Consolidation",
+          "Edema",
+          "Emphysema",
+          "Pleural Effusion",
+          "Pneumothorax"
+        ],
+        [
+          "Hernia",
+          "Infiltration",
+          "Pneumonia"
+        ],
+        [
+          "Edema",
+          "Emphysema",
+          "Hernia",
+          "Nodule",
+          "Pleural Thickening",
+          "Pneumonia"
+        ],
+        [
+          "Cardiomegaly",
+          "Edema",
+          "Fibrosis",
+          "Hernia",
+          "Mass"
+        ],
+        [
+          "Cardiomegaly",
+          "Pleural Thickening",
+          "Pneumothorax"
+        ],
+        [
+          "Emphysema",
+          "Fibrosis",
+          "Mass"
+        ],
+        [
+          "Consolidation",
+          "Infiltration",
+          "Pneumonia"
+        ],
+        [
+          "Hernia",
+          "Mass",
+          "Nodule"
+        ],
+        [
+          "Consolidation",
+          "Infiltration",
+          "Pneumonia"
+        ]
+      ]
+    }
+  ]
+}
