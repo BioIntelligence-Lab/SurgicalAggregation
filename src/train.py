@@ -61,43 +61,41 @@ def train_simulation_experiments(exps = ['exp1.1', 'exp1.2']):
       local.train_centralized(
         train_ds, 
         val_ds,
-        os.path.join(ckpt_dir, 'central_aggregation_NEW/'),
-        epochs = 150,
-        early_stopping = False
+        os.path.join(ckpt_dir, 'central_aggregation/'),
       )
       
-      # # Train federated naive model
-      # train_ds, val_ds = freshen_data()
-      # federated.train_federated_naive(
-      #   K, 
-      #   train_ds,
-      #   val_ds,
-      #   os.path.join(ckpt_dir, f'federated_naive_fedbnplus/'),
-      #   strategy = federated.Strategies.FedBNplus,
-      #   learning_rate = 5e-5
-      # )
+      # Train federated naive model
+      train_ds, val_ds = freshen_data()
+      federated.train_federated_naive(
+        K, 
+        train_ds,
+        val_ds,
+        os.path.join(ckpt_dir, f'federated_naive_fedbnplus/'),
+        strategy = federated.Strategies.FedBNplus,
+        learning_rate = 5e-5
+      )
       
-      # # Train federated partial loss model
-      # train_ds, val_ds = freshen_data()
-      # federated.train_federated_partial_loss(
-      #   K, 
-      #   train_ds,
-      #   val_ds,
-      #   os.path.join(ckpt_dir, f'federated_partial_loss_fedbnplus/'),
-      #   strategy = federated.Strategies.FedBNplus,
-      #   learning_rate = 5e-5
-      # )
+      # Train federated partial loss model
+      train_ds, val_ds = freshen_data()
+      federated.train_federated_partial_loss(
+        K, 
+        train_ds,
+        val_ds,
+        os.path.join(ckpt_dir, f'federated_partial_loss_fedbnplus/'),
+        strategy = federated.Strategies.FedBNplus,
+        learning_rate = 5e-5
+      )
       
-      # # Train surgical aggregation model
-      # train_ds, val_ds = freshen_data()
-      # federated.train_surgical_aggregation(
-      #   K, 
-      #   train_ds,
-      #   val_ds,
-      #   os.path.join(ckpt_dir, f'surgical_aggregation_fedbnplus/'),
-      #   strategy = federated.Strategies.FedBNplus,
-      #   learning_rate = 5e-5
-      # )
+      # Train surgical aggregation model
+      train_ds, val_ds = freshen_data()
+      federated.train_surgical_aggregation(
+        K, 
+        train_ds,
+        val_ds,
+        os.path.join(ckpt_dir, f'surgical_aggregation_fedbnplus/'),
+        strategy = federated.Strategies.FedBNplus,
+        learning_rate = 5e-5
+      )
       
 def train_realworld_experiments():
   with open(f'configs/exp2/config.json', 'r') as f:
@@ -129,52 +127,50 @@ def train_realworld_experiments():
         ]
       return train_ds, val_ds
     
-    # # Train local central aggregation model
-    # train_ds, val_ds = freshen_data()
-    # local.train_centralized(
-    #   train_ds, 
-    #   val_ds,
-    #   os.path.join(ckpt_dir, 'central_aggregation/'),
-    #   epochs = 150,
-    #   early_stopping = False
-    # )
+    # Train local central aggregation model
+    train_ds, val_ds = freshen_data()
+    local.train_centralized(
+      train_ds, 
+      val_ds,
+      os.path.join(ckpt_dir, 'central_aggregation/'),
+    )
     
     for strategy in federated.Strategies:
       strategy_key = str(strategy).split('.')[-1].lower()
-    #   # Train federated baseline model
-    #   train_ds, val_ds = freshen_data()
-    #   federated.train_federated_baseline(
-    #     K, 
-    #     train_ds,
-    #     val_ds,
-    #     os.path.join(ckpt_dir, f'federated_baseline_{strategy_key}/'),
-    #     strategy = strategy,
-    #     learning_rate = learning_rate
-    #   )
+      # Train federated baseline model
+      train_ds, val_ds = freshen_data()
+      federated.train_federated_baseline(
+        K, 
+        train_ds,
+        val_ds,
+        os.path.join(ckpt_dir, f'federated_baseline_{strategy_key}/'),
+        strategy = strategy,
+        learning_rate = learning_rate
+      )
       
       # FedBN is for personalized FL only. No need to train "global" 
       if strategy != federated.Strategies.FedBN:
-    #     # Train federated naive model
-    #     train_ds, val_ds = freshen_data()
-    #     federated.train_federated_naive(
-    #       K, 
-    #       train_ds,
-    #       val_ds,
-    #       os.path.join(ckpt_dir, f'federated_naive_{strategy_key}/'),
-    #       strategy = strategy,
-    #       learning_rate = learning_rate
-    #     )
+        # Train federated naive model
+        train_ds, val_ds = freshen_data()
+        federated.train_federated_naive(
+          K, 
+          train_ds,
+          val_ds,
+          os.path.join(ckpt_dir, f'federated_naive_{strategy_key}/'),
+          strategy = strategy,
+          learning_rate = learning_rate
+        )
         
-    #     # Train federated partial loss model
-    #     train_ds, val_ds = freshen_data()
-    #     federated.train_federated_partial_loss(
-    #       K, 
-    #       train_ds,
-    #       val_ds,
-    #       os.path.join(ckpt_dir, f'federated_partial_loss_{strategy_key}/'),
-    #       strategy = strategy,
-    #       learning_rate = learning_rate
-    #     )
+        # Train federated partial loss model
+        train_ds, val_ds = freshen_data()
+        federated.train_federated_partial_loss(
+          K, 
+          train_ds,
+          val_ds,
+          os.path.join(ckpt_dir, f'federated_partial_loss_{strategy_key}/'),
+          strategy = strategy,
+          learning_rate = learning_rate
+        )
         
         if strategy == federated.Strategies.FedAvg:
           continue
